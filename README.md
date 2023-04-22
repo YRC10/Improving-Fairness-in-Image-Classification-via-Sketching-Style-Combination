@@ -16,3 +16,14 @@ For sketch generation model $S$, we employ the latest image-to-sketching method 
 ](https://ieeexplore.ieee.org/document/9699090) to convert input image $x_i$ into its corresponding sketch $S(x_i)$.
 
 The code are available [here](https://github.com/yiranran/QMUPD).
+
+## Usage
+### Setup
+
+Run the `./requirements.txt` with the following command to meet requirements.
+```
+pip install -r requirements.txt
+```
+
+The CelebA dataset can be downloaded [here](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html). The images should be stored at `./dataset/img_align_celeba/`
+
