@@ -51,4 +51,4 @@ You could adjust `--target`, `--img_type`, `--sensitive_type`, and `--fairloss` 
 
 ## Evaluation Results
 ![avatar](./img/result.png)
-The result of sketch style combined images with $\mathcal{L}_{\rm fair}$ demonstrates that the fairness loss could further improve fairness. And these results are the best in terms of fairness, surpassing the previous results of Yao et al.[Improving Fairness in Image Classification viaSketching](https://arxiv.org/pdf/2211.00168.pdf).
+The result of sketch style combined images with $\mathcal{L}_{\rm fair}$ demonstrates that the fairness loss could further improve fairness. And these results are the best in terms of fairness, surpassing the previous results of Yao et al. [Improving Fairness in Image Classification viaSketching](https://arxiv.org/pdf/2211.00168.pdf).
