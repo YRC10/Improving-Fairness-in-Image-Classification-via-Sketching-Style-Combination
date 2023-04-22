@@ -48,3 +48,7 @@ In addition, you could run `./train_resnet.py` with the following command to tes
 py train_resnet.py --isTrain 0 --target xxx --img_type xxx --sensitive_type xxx --fairloss x
 ```
 You could adjust `--target`, `--img_type`, `--sensitive_type`, and `--fairloss` in this file when testing the model.
+
+## Evaluation Results
+![avatar](./img/result.png)
+The result of sketch style combined images with $\mathcal{L}_{\rm fair}$ demonstrates that the fairness loss could further improve fairness. And these results are the best in terms of fairness, surpassing the previous results of Yao et al.[Improving Fairness in Image Classification viaSketching](https://arxiv.org/pdf/2211.00168.pdf).
