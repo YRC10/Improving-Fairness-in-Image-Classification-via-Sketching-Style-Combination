@@ -13,7 +13,7 @@ I convert the original input images into sketch style combined images instead of
 ## Sketching Method
 
 For sketch generation model $S$, we employ the latest image-to-sketching method [Quality Metric Guided Portrait Line Drawing Generation From Unpaired Training Data
-](https://ieeexplore.ieee.org/document/9699090) to convert input image $x_i$ into its corresponding sketch $S(x_i)$.
+](https://ieeexplore.ieee.org/document/9699090) (QMUPD) to convert input image $x_i$ into its corresponding sketch $S(x_i)$.
 
 The code are available [here](https://github.com/yiranran/QMUPD).
 
